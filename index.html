@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>BEHOLD THE POWER OF THE MYSTIC EIGHT BALL!</h1>
+        <label for="name">What is your name?</label>
+            <br>
+            <input type="text" id="name" name="name"
+       minlength="2" maxlength="10" size="10">
+       <br>
+       <label for="question">What is your question?</label>
+            <br>
+            <input type="text" id="question" name="question"
+       minlength="2" maxlength="20" size="10">
+        <p>The answer will appear below...</p>
+    <button onClick="shakeTheEight()">Find your answer!</button>
+    <p id="my-name-was"></p>
+    <p id="my-question-was"></p>
+    <p id="answer-el"></p>
+        <script src="index.js"></script>
+    </body>
+</html>
